@@ -49,17 +49,21 @@ public class TestGreeter {
 	
 
    @Test
-
    public void testGreeter() 
-
    {
-
       g.setName("World");
 
       assertEquals(g.getName(),"World");
 
       assertEquals(g.sayHello(),"Hello World!");
+   }
+	
+   @Test
+   public void newtestKFGreeterPass()() 
+   {
+      String initials = "KF";
 
+      assertEquals("KF", initials);
    }
 
 }

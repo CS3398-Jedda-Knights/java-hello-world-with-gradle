@@ -58,7 +58,7 @@ public class TestGreeter {
 
       assertEquals(g.getName(),"World");
 
-      assertEquals(g.sayHello(),"Hello!");
+      assertEquals(g.sayHello(), "Hello " + name + "!");
 
    }
    public void newtestjaaGreeterPass() 

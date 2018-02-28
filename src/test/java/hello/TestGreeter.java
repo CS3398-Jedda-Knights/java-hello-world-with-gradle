@@ -65,5 +65,12 @@ public class TestGreeter {
 
       assertEquals("KF", initials);
    }
+	   @Test
+   public void newtestKFGreeterFail()
+   {
+      String initials = "KF";
+
+      assertEquals("Purposely failing this test", "K-F", initials);
+   }
 
 }

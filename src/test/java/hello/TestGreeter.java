@@ -70,7 +70,7 @@ public class TestGreeter {
    {
       String initials = "KF";
 
-      assertEquals("Purposely failing this test", "K-F", initials);
+      assertNull("This will fail because initials is not null", initials);
    }
 
 }

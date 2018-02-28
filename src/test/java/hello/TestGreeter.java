@@ -59,7 +59,7 @@ public class TestGreeter {
    }
 	
    @Test
-   public void newtestKFGreeterPass()() 
+   public void newtestKFGreeterPass()
    {
       String initials = "KF";
 

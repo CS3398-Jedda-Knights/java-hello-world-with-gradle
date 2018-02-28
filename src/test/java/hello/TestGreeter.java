@@ -1,4 +1,4 @@
-package hello;
+    package hello;
 
 
 
@@ -60,6 +60,13 @@ public class TestGreeter {
 
       assertEquals(g.sayHello(),"Hello World!");
 
+   }
+
+   public void newTestMADGreeterPass()
+   {
+       g.setName("Chicken");
+       assertEquals(g.getName(), "Chicken");
+       assertEquals(g.sayHello(), "Hello Chicken!")
    }
 
 }

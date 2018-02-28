@@ -69,7 +69,7 @@ public class TestGreeter {
 
       assertEquals(g.getName(),"Juan Aguirre");
 
-      assertEquals(g.sayHello(),"Hello " + name + "!";);
+      assertEquals(g.sayHello(),"Hello Juan Aguirre!";);
 
    }
 

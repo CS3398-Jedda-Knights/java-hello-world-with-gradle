@@ -70,5 +70,14 @@ public class TestGreeter {
       assertEquals(g.getName(),"Juan Aguirre");
 
    }
+   public void newtesttjaaGreeterFail() 
+
+   {
+
+      g.setName("Bruce Wayne");
+
+      assertEquals(g.getName(),"Clark Kent");
+
+   }
 
 }

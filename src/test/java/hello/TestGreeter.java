@@ -62,4 +62,10 @@ public class TestGreeter {
 
    }
 
+   @Test
+   public void newtesterbGreeterPass()
+   {
+      assertNotEquals("These strings are definitely not equal", "Unexpected value", "Actual value");
+   }
+
 }

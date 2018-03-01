@@ -72,7 +72,7 @@ public class TestGreeter {
       assertEquals(g.getName(),"Juan Aguirre");
 
    }
-   @test
+ /*  @test
    public void newtesttjaaGreeterFail() 
 
    {
@@ -82,5 +82,6 @@ public class TestGreeter {
       assertEquals(g.getName(),"Clark Kent");
 
    }
+   */
 
 }

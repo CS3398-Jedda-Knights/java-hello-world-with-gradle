@@ -61,6 +61,8 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World!");
 
    }
+   
+   @test
 
    public void newTestMADGreeterPass()
    {

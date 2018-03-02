@@ -71,4 +71,13 @@ public class TestGreeter {
        assertEquals(g.sayHello(), "Hello Chicken!");
    }
 
+   @Test
+
+   public void newTestMADGreeterFail()
+   {
+       g.setName("Different Chicken");
+       assertEquals(g.getName(), "Same Chicken");
+       assertEquals(g.sayHello(), "Hello Same Chicken!");
+   }
+
 }

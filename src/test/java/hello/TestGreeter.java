@@ -74,15 +74,15 @@ public class TestGreeter {
 	   
    }
    
-   @Test
+   /*@Test
 	
-   public void testGod()
+   public void newtestJHGreeterFail()
    {
       g.setName("God");
 	
-      assertEquals(g.getName(),"God");
+      assertEquals(g.getName(),"Not God");
 	
       assertEquals(g.sayHello(),"Hello God!");
 	   
-   }
+   }*/
 }

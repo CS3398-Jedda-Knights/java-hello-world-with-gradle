@@ -64,7 +64,7 @@ public class TestGreeter {
 	
    @Test
 	
-   public void testJohn()
+   public void newtestJHGreeterPass()
    {
       g.setName("John");
 	
@@ -74,7 +74,7 @@ public class TestGreeter {
 	   
    }
    
-   /*@Test
+   @Test
 	
    public void newtestJHGreeterFail()
    {
@@ -84,5 +84,5 @@ public class TestGreeter {
 	
       assertEquals(g.sayHello(),"Hello God!");
 	   
-   }*/
+   }
 }
